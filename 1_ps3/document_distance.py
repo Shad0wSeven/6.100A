@@ -252,6 +252,6 @@ if __name__ == "__main__":
 	tf = get_tf(text_file)
 	idf = get_idf(text_files)
 	tf_idf = get_tfidf(text_file, text_files)
-	print(tf) ## should print {'hello': 0.5, 'world': 0.25, 'there': 0.25}
-	print(idf) ## should print {'there': 0.3010299956639812, 'world': 0.3010299956639812, 'hello': 0.0, 'friends': 0.3010299956639812}
+	# print(tf) ## should print {'hello': 0.5, 'world': 0.25, 'there': 0.25}
+	# print(idf) ## should print {'there': 0.3010299956639812, 'world': 0.3010299956639812, 'hello': 0.0, 'friends': 0.3010299956639812}
 	print(tf_idf) ## should print [('hello', 0.0), ('there', 0.0752574989159953), ('world', 0.0752574989159953)]
